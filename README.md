@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Angluar CLI - helpful commands
+Run `ng --version` to get the version of the project and packages.
+
+Run `ng serve --port 4600` for a dev server in port 4600.

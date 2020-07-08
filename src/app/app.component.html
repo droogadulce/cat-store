@@ -4,3 +4,12 @@
 <div *ngIf="title === 'cat'">
   This is a div for cats
 </div>
+
+<button (click)="addItem()">Add item</button>
+<ul>
+  <li *ngIf="items.length === 0">The list is empty</li>
+  <li *ngFor="let item of items; index as i">
+    {{ item }} - {{ i }}
+    <button (click)="deleteItem(i)">Delete</button>
+  </li>
+</ul>

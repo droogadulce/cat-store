@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cat-store';
+
+  items = ['🍙', '🍗', '🥩', '🍖'];
+
+  addItem(): void {
+    this.items.push('🌯');
+  }
+
+  deleteItem(index: number): void {
+    this.items.splice(index, 1);
+  }
 }

@@ -5,6 +5,13 @@
   This is a div for cats
 </div>
 
+<div [ngSwitch]="title">
+  <p *ngSwitchCase="'shark'">This is a div for sharks</p>
+  <p *ngSwitchCase="'kitten'">This is a div for kittens</p>
+  <p *ngSwitchCase="'whale'">This is a div for whales</p>
+  <p *ngSwitchDefault>There's no match</p>
+</div>
+
 <button (click)="addItem()">Add item</button>
 <ul>
   <li *ngIf="items.length === 0">The list is empty</li>

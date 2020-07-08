@@ -33,4 +33,6 @@ Run `ng serve --port 4600` for a dev server in port 4600.
 
 Run `ng lint` to review the project code to see if it is following the rules defined in the tslint.json file.
 
-Run `ng g c componentName` to create a component.
+Run `ng g c componentName` to create a component and automatically import it in app.module.ts.
+
+Run `ng g p pipeName` to create a custom pipe.

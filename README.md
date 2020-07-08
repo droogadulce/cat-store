@@ -30,3 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Run `ng --version` to get the version of the project and packages.
 
 Run `ng serve --port 4600` for a dev server in port 4600.
+
+Run `ng lint` to review the project code to see if it is following the rules defined in the tslint.json file.
+
+Run `ng g c componentName` to create a component.

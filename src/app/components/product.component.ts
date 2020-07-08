@@ -22,6 +22,8 @@ export class ProductComponent implements OnInit, DoCheck, OnDestroy {
     @Input() product: Product;
     @Output() productClicked: EventEmitter<any> = new EventEmitter();
 
+    today = new Date();
+
     /**
      * First to run.
      * Best place to inyect component dependencies.

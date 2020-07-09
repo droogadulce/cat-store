@@ -36,3 +36,5 @@ Run `ng lint` to review the project code to see if it is following the rules def
 Run `ng g c componentName` to create a component and automatically import it in app.module.ts.
 
 Run `ng g p pipeName` to create a custom pipe.
+
+Run `ng g d directiveName` to create a custom directive.
